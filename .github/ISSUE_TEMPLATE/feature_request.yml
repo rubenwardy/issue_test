@@ -1,8 +1,6 @@
 name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: Feature request
-assignees: ''
+description: Suggest an idea for this project
+labels: ["Feature request"]
 body:
   - type: textarea
     id: problem
