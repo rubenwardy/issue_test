@@ -5,12 +5,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        # Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this bug report!
 
   - type: markdown
     attributes:
       value: >-
-        ## Minetest Version
+        # Minetest Version
 
   - type: input
     id: minetest_version
@@ -26,7 +26,7 @@ body:
   - type: markdown
     attributes:
       value: >-
-        ## OS / Hardware
+        # OS / Hardware
 
   - type: input
     id: env_os
@@ -60,7 +60,7 @@ body:
   - type: markdown
     attributes:
       value: >-
-        ## The Bug
+        # The Bug
 
   - type: textarea
     id: summary
