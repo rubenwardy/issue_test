@@ -40,11 +40,11 @@ body:
   - type: input
     id: env_cpu
     attributes:
-      label: Operating System(s)
+      label: CPU
       description: |
         Ex: Intel i7
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: env_gpu
