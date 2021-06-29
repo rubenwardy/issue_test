@@ -1,8 +1,5 @@
 name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: Unconfirmed bug
-assignees: ''
+labels: ["Unconfirmed bug"]
 body:
   - type: markdown
     attributes:
@@ -38,15 +35,6 @@ body:
         Ex: Windows 10, Ubuntu 20.04
     validations:
       required: true
-
-  - type: input
-    id: env_cpu
-    attributes:
-      label: Operating System(s)
-      description: |
-        Ex: Intel i7
-    validations:
-      required: false
 
   - type: input
     id: env_cpu
