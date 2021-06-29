@@ -44,7 +44,7 @@ body:
       description: |
         Ex: Intel i7
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: env_gpu
@@ -55,7 +55,7 @@ body:
         GPU model:
         OpenGL version:
     validations:
-      required: true
+      required: false
 
   - type: markdown
     attributes:
